@@ -1,0 +1,56 @@
+
+.detail-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80wh;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.detail-card{
+    margin: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5); 
+}
+
+
+
+.rating-info {
+    display: flex;
+    margin: 10px;
+  }
+
+.star{
+    float: left;
+    background: 0 0;
+    background-image: url(../../assets/star.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 57px;
+    height: 50px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+    vertical-align: middle;
+    padding: 2px 0 0;
+    font-size: 15px;
+    color: #222;
+    font-family: tahoma;
+}
+
+.btn-book {
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+  
+  }
+
+.show-info {
+/* align-self: flex-start; */
+width: 70vw;
+
+}
+
+.below-line{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}

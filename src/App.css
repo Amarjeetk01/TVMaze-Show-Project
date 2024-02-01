@@ -1,0 +1,56 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  cursor: pointer;
+}
+
+.show-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  border: none;
+}
+
+.show-card {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.genres {
+  display: flex;
+  gap: 5px;
+}
+.genre {
+  background-color: blanchedalmond;
+  padding: 3px 5px;
+  font-size: 12px;
+  border-radius: 4px;
+  color: black;
+  white-space: nowrap;
+}
+
+.pageNotFound {
+  height: 100vh;
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.bigText {
+    font-size: 150px;
+    font-weight: 700;
+  }
+
+.smallText-404 {
+    font-size: 44px;
+  }
