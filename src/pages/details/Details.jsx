@@ -4,7 +4,7 @@ import PosterFallback from "../../assets/no-poster.png";
 import "./styles.css";
 import ReactCountryFlag from "react-country-flag";
 import BookingForm from "../../components/BookingForm";
-import useFetch from "../hook/useFetch";
+import useFetch from "../../hook/useFetch";
 
 const Details = () => {
   // https://api.tvmaze.com/shows/42181

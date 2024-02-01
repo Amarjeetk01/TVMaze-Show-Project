@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Details from "./pages/details/Details";
 import PageNotFound from "./pages/PageNotFound";
 import { Header } from "./components/Header";
-import useFetch from "./pages/hook/useFetch";
+import useFetch from "./hook/useFetch";
 
 const App = () => {
   const [searchValue, setSearchValue] = useState("all");
